@@ -13,9 +13,11 @@ Install sunxi
 
 To build the firmware, head over to the Dustbuilder 
  - https://builder.dontvacuum.me/
- - Download and Extract files 
- - Update variables below in the shell script:
- -- FEL_DIR="roborock.vacuum.a62_0184_fel"
- -- KEY_FILE="ssh-keys/YourKeyFile.id_rsa"
- -- ROOTED_FW_FILE="roborock.vacuum.a62_0184_fw.tar.gz"
- -- VALETUDO_FW_FILE="valetudo-armv7-lowmem.upx"
+
+Download and Extract files 
+
+Update variables below in the shell script:
+ - FEL_DIR="roborock.vacuum.a62_0184_fel"
+ - KEY_FILE="ssh-keys/YourKeyFile.id_rsa"
+ - ROOTED_FW_FILE="roborock.vacuum.a62_0184_fw.tar.gz"
+ - VALETUDO_FW_FILE="valetudo-armv7-lowmem.upx"
